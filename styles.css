@@ -1,18 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f7f7f7;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  #qr-code-preview {
-    margin: 1rem 0;
-  }
-  
-  #download-btn {
-    margin-top: 1rem;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  color: #333;
+}
+
+#qr-text {
+  width: 80%;
+  max-width: 600px;
+  resize: none;
+}
+
+#generate-btn {
+  display: block;
+  margin: 1rem auto;
+}
+
+#qr-code-preview {
+  margin: 1rem 0;
+}
+
+#download-btn {
+  margin-top: 1rem;
+}
