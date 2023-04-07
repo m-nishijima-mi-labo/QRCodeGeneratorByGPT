@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QRコード生成</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>QRコード生成</h1>
+  <input type="text" id="qr-text" placeholder="文字列を入力してください">
+  <button id="generate-btn">QRコード生成</button>
+  <div id="qr-code-preview"></div>
+  <button id="download-btn" hidden>QRコードダウンロード</button>
+  <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
